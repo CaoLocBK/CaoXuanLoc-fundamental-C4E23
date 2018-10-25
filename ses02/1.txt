@@ -1,0 +1,4 @@
+Boolean is a type of data, it is a logic value (True or False).
+ex: 	2 > 1 (True)
+	1 == 0(False)
+	2 == 2 (true)
