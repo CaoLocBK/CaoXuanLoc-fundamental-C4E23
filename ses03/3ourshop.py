@@ -18,6 +18,6 @@ if chose =="U":
     print("Our items: ",*items,sep=",")
     chose = input("Welcom to our shop, what do you want (C, R, U, D) ? ")
 if chose =="D":
-    i = int(input("Delete position? "))
+    i = int(input("Delete position? ").upper())
     print("Our items: ",*items,sep=",")
     chose = input("Welcom to our shop, what do you want (C, R, U, D) ? ")
