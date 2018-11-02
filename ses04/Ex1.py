@@ -29,6 +29,7 @@ for i in flo:
 for i in range(3):
         print("Month: ",i+1)
         print("Hello, my name is Loc and here is my flock",flo)
+        x = len(flo)
         for t in range(x):
                 flo[t]+=50
                 print(flo)
