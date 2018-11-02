@@ -24,7 +24,7 @@ print(flo)
 for i in flo:
     if i > ma:
         ma = i
-
+total = 0
 #2.5
 for i in range(3):
         print("Month: ",i+1)
@@ -37,5 +37,12 @@ for i in range(3):
         for i1 in flo:
                 if i1 > mb:
                         mb = i1
+        print("Now my biggest sheep has size",mb,", let's shear it")
+        total += mb
         flo.remove(mb)
+        print("Apter shearing, here is my flock",flo)
+        print("My flock has size in total: ",total)
+        print("I would get ")
+
+
 
