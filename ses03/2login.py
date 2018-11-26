@@ -17,3 +17,5 @@ while True:
     else:
         break
 print("Welcome, c4e")
+
+print('\a')
